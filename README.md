@@ -1,13 +1,13 @@
 <p align="left">
-  <img src="public/assets/vyuha-favicon.png" alt="Vyuha icon" width="36" />
+  <img src="public/assets/vyuha-favicon.png" alt="Vyuha logo" width="36" />
 </p>
 
-# 🌌 Vyuha: Ground Control Dashboard
+#  Vyuha: Ground Control Dashboard
 
 > **"Vyuha doesn't just navigate physical spaces; it brings them instantly into the metaverse."**
 
 <div align="center">
-  <img src="public/assets/vyuha-real-logo.png" alt="Mitigators Vyuha logo" width="600"/>
+  <img src="Full 3D CAD Architectur.jpeg" alt="Full 3D CAD Architecture of the Vyuha bipedal robot" width="600"/>
 </div>
 
 <br/>
@@ -31,7 +31,7 @@ The dashboard is structured into a dense, single-screen 5-page layout:
 1. **Spatial Overview:** Monitors the end-to-end virtualization pipeline. Tracks Point Cloud Density, GPS-denied SLAM drift, and features live views of the Ortho-SLAM map, checkerboard simulation, and dual-lens VR twin.
 2. **Gait Dynamics:** Comparative telemetry for bimodal locomotion control. Analyzes quasi-static continuous walking (0.5 Hz) for stable LiDAR scanning vs. dynamic jumping (1.3 Hz) for obstacle traversal.
 3. **Trajectory & Velocity Tracking:** Real-time kinematic charting using Recharts. Visualizes X-Y foot trajectory interpolation, transient impulse body velocity responses, and multi-step PID limit-cycle tracking.
-4. **Force Equilibrium:** Live impedance control monitoring. Features a virtual mass-spring-damper parameter tuner ($c_{virt}$, $b_{virt}$, $m_{virt}$) and a dynamic Center of Mass (CoM) / Zero Moment Point (ZMP) stability envelope.
+4. **Force Equilibrium:** Live impedance control monitoring. Features a virtual mass-spring-damper parameter tuner ($c_{virt}$, $b_{virt}$, $m_{virt}$) and a dynamic Center of Motion (CoM) / Zero Moment Point (ZMP) stability envelope.
 5. **Actuator Architecture:** Hardware diagnostics. Displays a real-time 6-DOF joint state table (angles, torques, temperatures) and a breakdown of the proprietary Quasi-Direct Drive (QDD) planetary pancake actuators.
 
 ## 🛠️ Technology Stack
