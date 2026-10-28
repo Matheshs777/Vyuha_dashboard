@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="public/assets/vyuha-favicon.png" alt="Vyuha icon" width="36" />
+</p>
+
 # 🌌 Vyuha: Ground Control Dashboard
 
 > **"Vyuha doesn't just navigate physical spaces; it brings them instantly into the metaverse."**
