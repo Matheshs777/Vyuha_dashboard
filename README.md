@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="public/assets/vyuha-favicon.png" alt="Vyuha logo" width="36" />
+  <img src="public/assets/vyuha-logo.svg" alt="Vyuha logo" width="36" />
 </p>
 
 #  Vyuha: Ground Control Dashboard
