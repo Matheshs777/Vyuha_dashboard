@@ -7,7 +7,7 @@ const pages = [
   { id:'gait', label:'Gait Dynamics', short:'GAIT', icon:Activity },
   { id:'kinematics', label:'Trajectory Tracking', short:'KINEMATICS', icon:Route },
   { id:'compliance', label:'Force Equilibrium', short:'COMPLIANCE', icon:Gauge },
-  { id:'actuator', label:'Actuator Architecture', short:'ACTUATORS', icon:Box },
+  { id:'actuator', label:'Full 3D CAD Architecture', short:'3D CAD', icon:Box },
 ] as const
 
 export default function Shell({ page, setPage, children }: { page:PageId; setPage:(p:PageId)=>void; children:ReactNode }) {

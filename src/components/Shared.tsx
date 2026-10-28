@@ -12,7 +12,7 @@ export function SectionTitle({ eyebrow, title, aside }: { eyebrow: string; title
 export function ImageSlot({ src, title, label, compact=false }: { src: string; title: string; label: string; compact?: boolean }) {
   return <div className="relative w-full h-full min-h-0 flex-1 bg-black/20 rounded-lg overflow-hidden border border-white/5">
     <img src={src} alt={title} className="absolute inset-0 w-full h-full object-contain p-1" />
-    <div className="pointer-events-none absolute left-2 top-2 rounded border border-white/[0.1] bg-black/75 px-2 py-1 text-[8px] font-bold uppercase tracking-widest text-zinc-300">{label}</div>
+    {label && <div className="pointer-events-none absolute left-2 top-2 rounded border border-white/[0.1] bg-black/75 px-2 py-1 text-[8px] font-bold uppercase tracking-widest text-zinc-300">{label}</div>}
   </div>
 }
 
