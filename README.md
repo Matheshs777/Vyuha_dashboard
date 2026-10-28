@@ -3,7 +3,7 @@
 > **"Vyuha doesn't just navigate physical spaces; it brings them instantly into the metaverse."**
 
 <div align="center">
-  <img src="Full 3D CAD Architectur.jpeg" alt="Full 3D CAD Architecture of the Vyuha bipedal robot" width="600"/>
+  <img src="public/assets/vyuha-real-logo.png" alt="Mitigators Vyuha logo" width="600"/>
 </div>
 
 <br/>
